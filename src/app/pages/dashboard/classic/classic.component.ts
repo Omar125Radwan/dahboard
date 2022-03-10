@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./classic.component.scss']
 })
 export class ClassicComponent implements OnInit {
+  hello: string = 'Hello World';
 
   constructor() { }
 
